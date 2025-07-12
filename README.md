@@ -4,8 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9%2B-red)](https://pytorch.org/)
 
-This repository contains the implementation of a multi-task deep learning model for simultaneous skin cancer segmentation and classification using the HAM10000 dataset. The project was developed as part of the Artificial Intelligence for Industrial Applications program at OTH Merburg Widen.
-
+This repository contains the implementation of a multi-task deep learning model for simultaneous skin cancer segmentation and classification using the HAM10000 dataset.
 ## Project Overview
 
 Skin cancer is a prevalent global health concern, requiring early detection and localization for effective treatment. This project presents a multi-task learning (MTL) approach that leverages a shared ResNet18 encoder to perform:
