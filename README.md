@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/skin-cancer-multitask-learning.git
+   git clone https://github.com/minhazriyam/Multi-Task-Learning-for-Skin-Cancer-Detection-and-Segmentation.git
    cd skin-cancer-multitask-learning
    ```
 
