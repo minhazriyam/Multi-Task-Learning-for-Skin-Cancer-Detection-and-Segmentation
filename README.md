@@ -27,7 +27,7 @@ The model is trained on the HAM10000 dataset, achieving a Dice score of ~0.91 fo
 ## Dataset
 
 The model is trained and evaluated on the [HAM10000 dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T), which contains:
-- 1005 dermatoscopic images with corresponding segmentation masks.
+- 10015 dermatoscopic images with corresponding segmentation masks.
 - Labels for seven skin cancer classes: Melanoma (MEL), Melanocytic Nevus (NV), Basal Cell Carcinoma (BCC), Actinic Keratosis (AKIEC), Benign Keratosis (BKL), Dermatofibroma (DF), and Vascular Lesion (VASC).
 
 ## Requirements
@@ -70,7 +70,7 @@ pip install -r requirements.txt
    │   ├── image1_mask.png
    │   ├── image2_mask.png
    │   └── ...
-   └── metadata.csv
+   └── GroundTruth.csv
    ```
 
 ## Usage
@@ -102,7 +102,7 @@ The multi-task model consists of:
 
 ## Results
 
-After training for 5-10 epochs:
+After training for 5 epochs:
 - **Segmentation**: Dice Score ~0.91
 - **Classification**: Accuracy ~70%
 
@@ -138,13 +138,4 @@ Contributions are welcome! Please follow these steps:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Authors
 
-- S M Mirhaszul Islam ([s.Islam2@othn-ew.de](mailto:s.Islam2@othn-ew.de))
-- Jahin Tasnim Mim ([j.mim2@othn-ew.de](mailto:j.mim2@othn-ew.de))
-
-## Acknowledgments
-
-- HAM10000 dataset providers.
-- OTH Merburg Widen for supporting the Artificial Intelligence for Industrial Applications program.
-- References from the technical report, including [Zhang & Yang, 2022] and others, for foundational insights.
